@@ -1,8 +1,33 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+
+    /* The designs were created to the following widths:
+
+    Mobile: 375px
+    Desktop: 1440px */
+
+    /* colors */
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VeryDarkBlue: hsl(217, 54%, 11%);
+    --DarkBlue: hsl(216, 50%, 16%);
+    --Blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /* fonts */
+
+    --FontSizeParagraph: font-size: 18px;
+    --WeightLight: 300;
+    --WeightRegular: 400;
+    --WeightHeavy: 600;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--VeryDarkBlue);
 }
