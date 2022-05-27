@@ -29,13 +29,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: var(--VeryDarkBlue);
-    
-    
-}
-
-main{
-   
+    background-color: var(--VeryDarkBlue); 
 }
 
 .template{
@@ -52,6 +46,15 @@ main{
     border-radius: 20px;
 }
 
+h1{
+    color: var(--White);
+}
+
 p{
-    
+    font-size: var(--FontSizeParagraph);
+    color: var(--SoftBlue);
+}
+
+.template__timeLeft{
+   
 }
