@@ -30,4 +30,28 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--VeryDarkBlue);
+    
+    
+}
+
+main{
+   
+}
+
+.template{
+    background-color: var(--DarkBlue);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.template__cubePhoto{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+p{
+    
 }
